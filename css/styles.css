@@ -239,6 +239,7 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus {
     background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
 .projects-title {
