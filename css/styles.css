@@ -21,11 +21,31 @@
     --black-color: #000000;
     --accent-button: #188CE8;
 }
+p, h1, h2, h3, h4 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
 
 body {
     background: var(--primary-white-color);
     font-family: "Roboto", sans-serif;
     color: var(--title-text-color);
+}
+
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .list {
@@ -43,13 +63,45 @@ body {
 }
 
 /*шапка сайта*/
+.header-list {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 25px 215px;
+}
+
+.header-item {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-contact {
+    display: flex;
+    margin-left: auto;
+}
+
 .site-nav .link {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
 }
+
 .logo-accent {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -68,6 +120,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--black-color);
+    margin-left: 93px;
 }
 
 .site-nav .link.current {
