@@ -5,42 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="libraries" href="https://cdnjs.com/libraries/modern-normalize">
-    <!--link rel="preconnect" href="https://fonts.google.com"--> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+    <link rel="libraries" href="https://cdnjs.com/libraries/modern-normalize"/>
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
     <!--Шапка сайта-->
-    <header>
-        <div class="container header-container">
-            <nav class="site-nav header-nav">
-                <a href="./index.html" class="link logo-header"><span class="logo-accent">Web</span>Studio</a>
-                <ul class="list header-list">
-                    <li><a href="" class="link current header-item">Студия</a></li>
-                    <li><a href="./portfolio.html" class="link header-item">Портфолио</a></li>   
-                    <li><a href="" class="link header-item">Контакты</a></li>    
-                </ul>
-            </nav>
-            <ul class="list header-contact">
-                <li><a href="mailto:info@devstudio.com" class="link auth-nav">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link auth-nav">+38 096 111 11 11</a></li>
+    <header class="container header-container">
+        <nav class="site-nav nav-container">
+            <a href="./index.html" class="link logo-header"><span class="logo-accent">Web</span>Studio</a>
+            <ul class="site-nav list">
+                <li class="list-item"><a href="" class="link current">Студия</a></li>
+                <li class="list-item"><a href="./portfolio.html" class="link">Портфолио</a></li>   
+                <li class="list-item"><a href="" class="link">Контакты</a></li>    
             </ul>
-        </div>
+            <ul class="auth-nav list">
+            <li class="item"><a href="mailto:info@devstudio.com" class="link auth-nav">info@devstudio.com</a></li>
+            <li class="item"><a href="tel:+380961111111" class="link auth-nav">+38 096 111 11 11</a></li>
+            </ul>
+        </nav>      
     </header>
     <main>
         <!--Баннер-->
         <section class="hero">
-            <div class="container">
-                <h1 class="title">Эффективные решения<br>для вашего бизнеса</h1>
-                <button type="button" class="button">Заказать услугу</button>
-            </div>  
+            <h1 class="title">Эффективные решения<br>для вашего бизнеса</h1>
+            <button type="button" class="button">Заказать услугу</button>
         </section >
         <!--Особенности-->
-        <section class="features">
-            <div class="container">
+        <section class="container">
+            <div class="features-container">
                 <h2 class="visually-hidden">Особенности</h2>
                 <ul class="list">
                     <li>
@@ -60,7 +55,7 @@
             </div>
         </section>
         <!--Чем мы занимаемся-->
-        <section class="section">
+        <section class="section box">
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="list">
