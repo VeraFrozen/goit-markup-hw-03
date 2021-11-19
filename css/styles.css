@@ -47,10 +47,18 @@ img {
     height: auto;
 }
 
+button {
+    border: none;
+}
+section {
+    max-width: 100%;
+}
+
 body {
-    background: var(--background-features-color);
+    background: var(--primary-white-color);
     font-family: "Roboto", sans-serif;
     color: var(--title-text-color);
+    margin: 0;
 }
 
 .container {
@@ -279,7 +287,7 @@ body {
 .team-container {
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--primary-white-color);
+    background-color: var(--button-color);
 }
 
 .team-list  ul {
@@ -297,12 +305,13 @@ body {
     max-width: 270px;
     flex-basis: calc((100% / 4) - 30px);
     margin-right: 30px;
+    background-color: var(--primary-white-color);
 }
 
-/*.team-list .team-item {
-    border-bottom: 2px solid var(--accent-button);
+.team-list .team-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}*/
+}
 
 .card-title {
     margin-bottom: 10px;
@@ -416,7 +425,6 @@ body {
     background-color: var(--button-colol);
     cursor: pointer;
     border-radius: 4px;
-    border: 1px solid var(--button-colol);
 }
 
 .projects-button:last-child .portfolio-button {
@@ -429,7 +437,6 @@ body {
     color: var(--primary-white-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    border: 1px solid var(--accent-color);
 }
 
 .portfolio-container .card-set {
