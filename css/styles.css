@@ -427,7 +427,7 @@ body {
     border-radius: 4px;
 }
 
-.projects-button:last-child .portfolio-button {
+.portfolio-button:last-child {
     margin-right: 0;
 }
 
