@@ -50,10 +50,10 @@ img {
 button {
     border: none;
 }
-/*section {
+
+section {
     max-width: 100%;
-    background-color: var(--primary-white-color);
-}*/
+}
 
 body {
     font-family: "Roboto", sans-serif;
