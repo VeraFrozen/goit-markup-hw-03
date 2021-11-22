@@ -50,15 +50,16 @@ img {
 button {
     border: none;
 }
-section {
+/*section {
     max-width: 100%;
     background-color: var(--primary-white-color);
-}
+}*/
 
 body {
     font-family: "Roboto", sans-serif;
     color: var(--title-text-color);
     margin: 0;
+    background-color: var(--primary-white-color);
 }
 
 .container {
@@ -285,6 +286,7 @@ body {
 
 /*Наша команда*/
 .team-container {
+    width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--button-color);
