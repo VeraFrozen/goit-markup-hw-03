@@ -285,7 +285,7 @@ body {
 }
 
 /*Наша команда*/
-.team-container {
+section .team-container {
     width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
