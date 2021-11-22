@@ -282,7 +282,6 @@ body {
 
 /*Наша команда*/
 .team {
-    width: 100%;
     background-color: var(--button-color);
 }
 
