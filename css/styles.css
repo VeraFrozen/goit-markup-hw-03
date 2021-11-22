@@ -51,10 +51,6 @@ button {
     border: none;
 }
 
-section {
-    max-width: 100%;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     color: var(--title-text-color);
@@ -285,7 +281,8 @@ body {
 }
 
 /*Наша команда*/
-section .team {
+.team {
+    width: 100%;
     background-color: var(--button-color);
 }
 
