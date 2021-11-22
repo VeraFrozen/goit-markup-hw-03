@@ -285,11 +285,14 @@ body {
 }
 
 /*Наша команда*/
-section .team-container {
+.team {
+    background-color: var(--button-color);
+}
+
+.team-container {
     width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--button-color);
 }
 
 .team-list  ul {
